@@ -12,7 +12,6 @@ list.addEventListener(
   false
 );
 
-//Если код добавления кнопок и цикл не дублировать,он не работает
 for (let i = 0; i < myNodeList.length; i++) {
   let span = document.createElement("span"),
     txt = document.createTextNode("\u00D7");
